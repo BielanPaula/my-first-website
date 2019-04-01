@@ -1,0 +1,22 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__menu {
+  display: none;
+}
+
+@media screen and (min-width: 500px) {
+  .website {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  body {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
